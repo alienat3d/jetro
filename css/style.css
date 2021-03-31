@@ -18,7 +18,7 @@ body {
 a {
   text-decoration: none;
   display: inline-block;
-  color: #000;
+  color: #fff;
 }
 
 ul {
@@ -202,6 +202,7 @@ ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 46px;
 }
 
 .items__article {
@@ -239,33 +240,151 @@ ul {
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 46px;
 }
 
-.recent-works {
-  margin-bottom: 300px;
+.items__text-button-wrapper {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.recent-works {}
 
 .recent-works__title {
   min-height: 18px;
-  min-width: 100%;
-  min-height: 18px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
 }
 
 .recent-works__heading {
+  min-width: 134px;
   font-family: 'Bebas', sans-serif;
   word-spacing: 0.2rem;
   font-size: 18px;
   color: #e8603c;
-  width: 112px;
 }
 
 .recent-works__line {
+  min-width: 805px;
+  min-height: 18px;
+  margin-right: 0;
   background-image: url("../images/decor/hatched-line.png");
   background-repeat: repeat-x;
-  padding-right: 750px;
-  height: 18px;
+}
+
+.recent-works__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.recent-works__item {
+  width: 220px;
+  min-height: 244px;
+}
+
+.recent-works__picture {
+  width: 100%;
+  min-height: 183px;
+}
+
+.recent-works__item-inner {
+  margin-top: -3px;
+  min-height: 61px;
+  border: 1px solid #dbdbdb;
+  border-top: none;
+  font-family: 'Bebas', sans-serif;
+  word-spacing: 0.2rem;
+  line-height: 18px;
+  padding: 13px;
+}
+
+.recent-works__picture-name {
+  padding-bottom: 7px;
+  color: #b9b9b9;
+}
+
+.recent-works__picture-date {
+  color: #e8663c;
+}
+
+.footer__inner {
+  min-height: 264px;
+  background-color: #e8663c;
+  color: #fff;
+  padding: 40px 40px 33px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-family: 'Bebas', sans-serif;
+  word-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.footer_about-text p {
+  margin-bottom: 17px;
+  padding-right: 12px;
+}
+
+.footer__about {
+  width: 270px;
+}
+
+.footer__twitter-widget {
+  width: 240px;
+}
+
+.footer__twitter-widget span,
+.footer__twitt-time {
+  font-weight: 300;
+  color: #f3b29d;
+}
+.footer__twitter-link{
+  margin-bottom: 0;
+}
+.footer__twitter-link a {
+  transition: 0.3s;
+}
+
+.footer__twitter-link span:hover {
+  color: #fff;
+}
+
+.footer__contacts {
+  width: 270px;
+  font-size: 12px;
+}
+.footer__contacts-email{
+  margin-bottom: 0;
+}
+.footer__contacts-email a {
+  transition: 0.3s;
+}
+
+.footer__contacts-email a:hover {
+  color: #f3af9d;
+}
+
+.footer__contacts-email address {
+  font-style: normal;
+}
+.footer__contacts-social-icons {
+  margin-top: 21px;
+  width: 170px;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts-social-icons img {
+  width: 30px;
+  height: 31px;
 }
